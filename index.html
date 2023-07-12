@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculadora Basal</h1>
-    <p>Completa todos los datos</p>
-    <input type="number" placeholder="Peso en kg" />
-    <button>Calcular</button>
-    <p>70 cc/hr </p>
-    <p>m + m/ 105 cc/hr</p>
-    <Div>
-        <H1> ¿Como se calcula?</H1>
-        <ul>
-            <li>De 0 a 10 kg, se calcula 100cc por cada kilo</li>
-            <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20 kg</li>
-            <li>De 20 kg para arriba, se suman 20cc por cada kilo adicional</li>
-        </ul>
-    </Div>
+    <div id="contenedor">
+        <div id="calculadora">
+            <div class="contenido">
+                <h1>Calculadora Basal</h1>
+                <p>Completa todos los datos</p>
+                <input type="number" placeholder="Peso en kg" />
+                <button>Calcular</button>
+                <p>70 cc/hr </p>
+                <p>m + m/ 105 cc/hr</p>
+            </div>
+        </div>       
+        <div id="Detalle">
+            <div class="contenido">
+                <H1> ¿Como se calcula?</H1>
+                <ul>
+                    <li>De 0 a 10 kg, se calcula 100cc por cada kilo.</li>
+                    <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20 kg.</li>
+                    <li>De 20 kg para arriba, se suman 20cc por cada kilo adicional.</li>
+                </ul>
+            </div>    
+        </div>    
+    </div>
+        
 </body>
 </html>
