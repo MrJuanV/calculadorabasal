@@ -4,9 +4,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #3e363f;
 }
-h1 {
-  color: #3e363f;
-}
+
 #contenedor {
   background-color:#f6f5f7;
   width: 80vw;
@@ -17,25 +15,36 @@ h1 {
   margin: auto;
 }
 #calculadora {
-  background-color:cornflowerblue;
+  background-color:rgba(3,169,244,0.38);
   width: 50%;
   height: 100%;
   float: left;
   border-radius: 20px;
 }
 #Detalle {
-  background-color:aquamarine;
+  background-color:#76D7C4;
   width: 50%;
-  height: 100%;
-  float: left;
-  border-radius: 20px;
+    height: 100%;
+    float: left;
+  border-radius: 20px; 
+  text-align: justify;
+
+
 }
-#contenido {
+.contenido {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
-    padding: 40px;
+    padding: 40px;  
+}
+.imagen{
+    position: absolute;
+    transform: translateX(200%) translateY(30%);
+}
+.imagen2{
+    position: absolute;
+    transform: translateY(-96%) translateX(530%);
 }
 input {
 	width: 70%;
@@ -54,20 +63,5 @@ button {
       text-transform: uppercase;
       letter-spacing: 1px;
       transition: transform 20ms ease-in;
-  }
-  button:active {
-	transform: scale(0.95);
-}
-#error{
-    color: red;
-    font-weight: bold;
-    display: none;
-}
-
-.resultado{
-    color: #0A81D1;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 5px;
-    display: none;
-}
+      }
+ 
