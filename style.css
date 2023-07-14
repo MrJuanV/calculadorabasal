@@ -39,12 +39,9 @@ body {
     padding: 40px;  
 }
 .imagen{
-    position: absolute;
-    transform: translateX(200%) translateY(30%);
-}
-.imagen2{
-    position: absolute;
-    transform: translateY(-96%) translateX(530%);
+    position:relative;
+    top: -90%; left: -25%;
+   
 }
 input {
 	width: 70%;

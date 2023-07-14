@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Calculadora Basal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="contenedor">
         <div id="calculadora">
             <div class="contenido">
-                <h1>Calculadora Basal</h1>
-                <p>Completa todos los datos</p>
+                <h1>Hidratacion Basal</h1>
+                <p>Completa este campo</p>
                 <input type="number" placeholder="Peso en kg" />
                 <button>Calcular</button>
                 <p>70 cc/hr </p>
@@ -20,15 +21,25 @@
         </div>       
         <div id="Detalle">
             <div class="contenido">
-                <H1> ¿Como se calcula?</H1>
-                <ul>
-                    <li>De 0 a 10 kg, se calcula 100cc por cada kilo.</li>
-                    <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20 kg.</li>
-                    <li>De 20 kg para arriba, se suman 20cc por cada kilo adicional.</li>
-                </ul>
-            </div>    
-        </div>    
-    </div>
-        
+                <h1 style="text-align: center;";>
+                    ¿Como se calcula?
+                </h1>   <h4>Metodo de Holliday-Segar</h4>
+                        <ul>
+                            <li>De 0 a 10 kg, se calcula 100cc por cada kilo. Formula.→ px100cc  </li>
+                            <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20 kg. Formula.→ ((p-10) * 50) + 1000</li>
+                            <li>De 20 kg para arriba, se suman 20cc por cada kilo adicional.Formula.→ ((p-20) * 20) + 1500</li>                        
+                        </ul>    
+                        <h4>Metodo Superficie Corporal</h4>
+                        <ul>
+                            <li>Para mayores de 30kg usar. Formula→ SC=((p*4)+7)/(p+90) luego SC*1500 & SC*2000
+                            </li>
+                        </ul>
+                    </div>
+            </div> 
+            <div class="imagen"> <img src="./basal.png" width="100vw" height="100vh" 
+                alt="canilla de agua">     
+                
+        </div>            
+    </div>    
 </body>
 </html>
