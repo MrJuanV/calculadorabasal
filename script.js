@@ -10,7 +10,7 @@ BOTON.addEventListener("click",()=>{
 
     if (peso == ""|| peso == 0){
 
-        ERROR.innerHTML ="ingrese un valor"
+        ERROR.innerHTML ="Ingrese un valor"
         ERROR.style.display= "block"
         R1.style.display = "none"
         R2.style.display = "none"
