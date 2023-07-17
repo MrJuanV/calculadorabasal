@@ -22,7 +22,7 @@ BOTON.addEventListener("click",()=>{
             R2.style.display = "none"
             ERROR.style.display= "none"
         
-            R3.innerHTML = "m+m/2 =" + (Holiday(IMPUT.value)* (3/2).toFixed(2)) + "cc/h";
+            R3.innerHTML = "m+m/2 =" + (Holiday(IMPUT.value)* (3/2)).toFixed(2) + "cc/h";
             R3.style.display = "block"
         
         } else {
