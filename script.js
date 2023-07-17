@@ -12,6 +12,7 @@ BOTON.addEventListener("click",()=>{
 
         ERROR.innerHTML ="ingrese un valor"
         ERROR.style.display= "block"
+        R1.style.display = "none"
         R2.style.display = "none"
         R3.style.display = "none"
         
